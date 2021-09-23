@@ -1,0 +1,89 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?0c18adfbcc01a83a53379e6d3a85b49a") format("truetype"),
+url("./flaticon.woff?0c18adfbcc01a83a53379e6d3a85b49a") format("woff"),
+url("./flaticon.woff2?0c18adfbcc01a83a53379e6d3a85b49a") format("woff2"),
+url("./flaticon.eot?0c18adfbcc01a83a53379e6d3a85b49a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?0c18adfbcc01a83a53379e6d3a85b49a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "loan": "\f101",
+    "scholarship": "\f102",
+    "agriculture": "\f103",
+    "reliability": "\f104",
+    "speed": "\f105",
+    "guarantee": "\f106",
+    "user-experience": "\f107",
+    "light-bulb": "\f108",
+    "talent": "\f109",
+    "key": "\f10a",
+    "key-1": "\f10b",
+    "responsibility": "\f10c",
+    "personal": "\f10d",
+    "hand": "\f10e",
+    "pay": "\f10f",
+    "phone-ringing": "\f110",
+);
+
+.flaticon-loan:before {
+    content: map-get($flaticon-map, "loan");
+}
+.flaticon-scholarship:before {
+    content: map-get($flaticon-map, "scholarship");
+}
+.flaticon-agriculture:before {
+    content: map-get($flaticon-map, "agriculture");
+}
+.flaticon-reliability:before {
+    content: map-get($flaticon-map, "reliability");
+}
+.flaticon-speed:before {
+    content: map-get($flaticon-map, "speed");
+}
+.flaticon-guarantee:before {
+    content: map-get($flaticon-map, "guarantee");
+}
+.flaticon-user-experience:before {
+    content: map-get($flaticon-map, "user-experience");
+}
+.flaticon-light-bulb:before {
+    content: map-get($flaticon-map, "light-bulb");
+}
+.flaticon-talent:before {
+    content: map-get($flaticon-map, "talent");
+}
+.flaticon-key:before {
+    content: map-get($flaticon-map, "key");
+}
+.flaticon-key-1:before {
+    content: map-get($flaticon-map, "key-1");
+}
+.flaticon-responsibility:before {
+    content: map-get($flaticon-map, "responsibility");
+}
+.flaticon-personal:before {
+    content: map-get($flaticon-map, "personal");
+}
+.flaticon-hand:before {
+    content: map-get($flaticon-map, "hand");
+}
+.flaticon-pay:before {
+    content: map-get($flaticon-map, "pay");
+}
+.flaticon-phone-ringing:before {
+    content: map-get($flaticon-map, "phone-ringing");
+}
